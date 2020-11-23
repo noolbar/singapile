@@ -1,0 +1,59 @@
+body {
+  font-size: 16px;
+  margin: 0px;
+}
+
+input[type="button"] {
+  cursor: pointer;
+  width: 120px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  text-align: center;
+  padding: 12px;
+  margin: 10px 10px 0;
+  background: #4caf50;
+  color: white;
+  vertical-align: top;
+}
+
+.header input {
+  float: right;
+}
+
+.header {
+  background: rgba(201, 240, 185, 0.897);
+  /* position: fixed; */
+  top: 0;
+  /* bottom: 0; */
+  right: 0;
+  left: 0;
+  /* z-index: 1; */
+  vertical-align: top;
+  height: 100px;
+}
+
+.footer {
+  background: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  /* top: 0; */
+  bottom: 0;
+  right: 0;
+  left: 0;
+  /* z-index: 1; */
+}
+
+.footer a {
+  cursor: pointer;
+  background: white;
+  margin: 16px;
+}
+
+.content {
+  /* padding: 100px 10px;
+  top: 100px; */
+  padding: 10px;
+}
+
+.docmentlist {
+  cursor: pointer;
+}

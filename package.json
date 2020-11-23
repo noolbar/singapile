@@ -1,0 +1,25 @@
+{
+  "name": "singapile",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "setup": "cp res dist",
+    "serve": "npx parcel serve index.html",
+    "build": "parcel build --no-content-hash --no-source-maps index.html --out-dir public --public-url ./ --target browser"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "firebase": "^8.1.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-hook-form": "^6.12.1",
+    "react-qr-reader": "^2.2.1",
+    "react-router-dom": "^5.2.0"
+  },
+  "devDependencies": {
+    "cssnano": "^4.1.10"
+  }
+}
